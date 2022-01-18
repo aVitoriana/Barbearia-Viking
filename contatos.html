@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+
+  <meta charset="utf-8">
+  <title> Barbearia Viking - Produtos </title>
+  <meta name="viewport" content="width=device-width, initial-escale=1.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Projeto Ana/Favicon/favicon.png">
+  <link rel="stylesheet" type="text/css" href="../Projeto Ana/CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<header>
+            
+  <div class= caixacentral>
+
+   <h1 class="arte"> <img src= "../Projeto Ana/Imagens/logo.png"></h1>
+
+    <nav>
+      
+      <ul>
+        <li> <a href="../Projeto Ana/index.html">Home</a></li>
+        <li> <a href="../Projeto Ana/produtos.html">Produtos</a></li>
+        <li> <a  href="../Projeto Ana/contatos.html"> Contato</a></li>
+      </ul>
+
+    </nav>
+
+  </div>  
+
+</header>
+
+<body>
+   
+<main>
+         
+  <form>
+
+    <label> Nome e Sobrenome: </label>
+    <input type="text" id=NomeSobrenome class="input-padrao" required>
+
+    <label> Endereço de E-mail: </label>
+    <input type="email" id=EndEmail class="input-padrao" required placeholder="seuemail@domínio.com">
+
+    <label> Telefone: </label>
+    <input type="tel" id=Telefone class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+    <label> Mensagem: </label>
+    <textarea cols="68" rows="14" class="input-padrao" required></textarea>
+
+  <fieldset>
+
+     <legend>Como podemos entrar em contato?</legend>
+
+     <label for="radio-email"><input type="radio" name="contato" value="Email" id="radio-email">Email</label>
+
+     <label for="radio-tel"><input type="radio" name="contato" value="Telefone" id="radio-tel">Telefone</label>
+                            
+     <label for="radio-whats"><input type="radio" name="contato" value="Whatsapp" id="radio-whats" checked>Whatsapp  </label>
+
+  </fieldset>
+
+  <fieldset>
+
+     <legend>Qual o melhor horário para o seu atendimento?</legend>
+
+       <select class="bot">
+         <option>Manhã</option>
+         <option>Tarde</option>
+         <option>Noite</option>
+       </select>
+
+  </fieldset>
+                                                 
+    <label><input type="checkbox">"Gostaria de receber as novidades da barbearia Viking por e-mail?</label>
+    
+    <input type="submit" value="Enviar Formulário" class="bot">
+
+       </form>
+
+          <table>
+            
+             <thead>
+                <tr>
+                   <td>DIA</td>
+                   <td>HORÁRIO</td>                 
+                </tr>
+             </thead>
+
+             <tbody>
+                <tr>
+                   <td> Segunda</td>
+                   <td>8h às 20h</td>
+                </tr>
+                <tr>
+                   <td> Quarta </td>
+                   <td>8h às 21h</td>
+                </tr>
+                <tr>
+                   <td> Sexta</td>
+                   <td>8h às 22h</td>
+                </tr>
+             </tbody>
+
+          </table>
+
+</main>
+
+</body>
+
+<footer>
+      <img src="..\Projeto Ana\Imagens\logo_branco.png" alt="nosso logo" tittle="Logo da Barbearia Viking">
+      <p class="pe">&copy;Copyright Barbearia Viking - 2021 </p>
+</footer>
+
+</html>
